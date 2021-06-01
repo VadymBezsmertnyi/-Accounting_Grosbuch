@@ -1,0 +1,16 @@
+#topSite{
+    height: 14vh;
+    background: rgba(248, 242, 209, 0.8);
+    display: flex;
+}
+
+#middleSite{
+    height: 75vh;
+    background: #F8F2D1;
+}
+
+#footerSite{
+    height: 11vh;
+    background: rgba(248, 242, 209, 0.6);
+    display: flex;
+}

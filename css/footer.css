@@ -1,0 +1,23 @@
+.footerPart{
+    width: 23.34vw;
+    height: 100%;
+    font-size: smaller;
+    text-align: center;
+}
+
+.footerIconContact{
+    display: flex;
+    justify-content:center;
+}
+
+.footerIcon img{
+    height: 2vh;
+}
+
+.footerText{
+    padding-left: 1vh;
+}
+
+#mobileVersion{
+    display: none;
+}
