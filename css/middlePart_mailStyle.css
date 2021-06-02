@@ -7,10 +7,11 @@
 #middleSite{
     height: 75vh;
     background: #F8F2D1;
+    overflow: auto;
 }
 
 #footerSite{
-    height: 11vh;
+    height: 10vh;
     background: rgba(248, 242, 209, 0.6);
     display: flex;
 }

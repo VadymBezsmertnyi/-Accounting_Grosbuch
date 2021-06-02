@@ -1,0 +1,88 @@
+#second_menu p{
+    margin: 0;
+    font-size: 3vh;
+}
+
+#second_menu img{
+    height: 10vh;
+    margin: 1vh;
+}
+
+#second_menu{
+    display: flex;
+}
+
+.rowSecond_menu{
+    width: 35vw;
+    height: 100%;
+    border: 1px solid #63524A;
+}
+
+#menuLegal{
+    display: none;
+}
+
+.third_menu{
+    width: 35vw;
+    height: 100%;
+    display: none;
+}
+
+.third_menuLegal{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    border: 1px solid #63524A;
+    width: 35vw;
+}
+.third_menuLegal div{
+    margin-right: 2vh;
+}
+
+#menuLegal .third_menu div{
+    margin-left: 2vh;
+}
+
+#menuLegal div{
+    margin-left: 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menuLegal div img{
+    height: 3vh;
+    margin: 0;
+    transform: rotate(90deg);
+    align-content: flex-end;
+}
+
+#otherLegal{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 14vh;
+}
+
+#otherLegal p{
+    display: list-item;
+}
+
+#menuFOP div img{
+    height: 3vh;
+    margin: 0;
+    transform: rotate(-90deg);
+    align-content: flex-end;
+}
+
+#menuFOP{
+    text-align: right;
+}
+
+#menuFOP div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menuFOP .third_menu div{
+    margin-right: 2vh;
+}

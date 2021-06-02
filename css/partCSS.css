@@ -6,7 +6,7 @@ body {
 #main_part{ /* Основна частина */ 
     background: url(img/accounting_background_1.jpg) no-repeat center center fixed;
     background-size: cover;
-    opacity: 80%;
+/*     opacity: 80%; */
     width: 100vw;
     height: 100vh;
     display: flex;
