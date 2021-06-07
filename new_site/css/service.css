@@ -2,6 +2,33 @@
     background-color: rgb(104 255 92 / 55%);
     text-align: center;
     margin: 0;
-    box-shadow: inset -1px 8px 20px 3px #ffffff;
+    padding-bottom: 0.2%;
+    background-image: linear-gradient(to bottom, rgb(255 255 255), rgb(255 255 255 / 55%), rgb(172, 255, 166, 51%), rgb(172, 255, 166, 48%), rgb(172, 255, 166), rgb(172, 255, 166), rgb(172, 255, 166, 45%), rgb(172, 255, 166, 56%), rgb(172, 255, 166), rgb(172, 255, 166), rgb(255 255 255 / 78%));
 }
 
+.buttonServiceList {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.buttonServiceList:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(157, 255, 149, 0.589);
+    color: white;
+    transform: translateY(-7px);
+  }

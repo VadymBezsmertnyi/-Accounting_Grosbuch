@@ -1,0 +1,65 @@
+#listService{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#legalList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+#imgLegal{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    margin: 1%;
+
+    border: 2px solid #fff;
+    background: url(img/legalPhoto.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 0 7px 16px #fff;
+}
+
+#textLegalList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textLegalList h1 {
+    margin: 0;
+    margin-right: 6%;
+}
+
+#fopList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+#imgFop{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    margin: 1%;
+
+    border: 2px solid #fff;
+    background: url(img/fopPhoto.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 0 7px 16px #fff;
+}
+
+#textFopList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textFopList h1 {
+    margin: 0;
+    margin-left: 6%;
+}
