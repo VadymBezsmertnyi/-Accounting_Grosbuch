@@ -1,0 +1,42 @@
+#textDetailFop{
+    width: 100%;
+    background-color: rgb(104 255 92 / 55%);
+    text-align: center;
+    margin: 0;
+    padding-bottom: 0.2%;
+    background-color: #acffa6;
+    background: linear-gradient(180deg, rgba(172,255,166,1) 83%, rgba(255,255,255,1) 100%);
+}
+
+.textService{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.mailTextDetailFop{
+    width: 33%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    border: thick double rgb(172 255 166);
+}
+
+.mailTextDetailFop ul{
+    padding: 0;
+    padding-left: 2%;
+    margin: 0;
+}
+
+.mailTextDetailFop li{
+    padding-left: 4%;
+    font-style: oblique;
+}
+
+.mailTextDetailFop h2{
+    padding-left: 4%;
+}

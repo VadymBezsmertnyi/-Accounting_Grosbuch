@@ -33,6 +33,14 @@ body {
     margin: 0;
 }
 
+.contactTopCLASS a{
+    width: 100%;
+    margin: 0;
+    margin-left: 1%;
+    text-decoration: none;
+    color: black;
+}
+
 #adressAndEmail{
     width: 60%;
     margin: 1%;

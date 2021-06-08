@@ -1,6 +1,6 @@
 @media (min-width: 320px) and (max-width: 1000px) {
     #contactAndSocialTop {
-        display: flex;
+        display: none;
         background-color: rgb(104 255 92 / 55%);
         box-shadow: inset 0px -5px 10px 0px #ffffff;
         flex-direction: column;
@@ -12,11 +12,13 @@
         width: 100%;
         justify-content: space-between;
     }
-    #numberPhone{
-    width: 100%;
-    margin: 1%;
-    margin-left: 3%;
+
+    #numberPhone {
+        width: 100%;
+        margin: 1%;
+        margin-left: 3%;
     }
+
     #adressAndEmail {
         width: 100%;
         margin: 1%;
@@ -30,7 +32,12 @@
 
     #logoText {
         display: flex;
+        width: 100%;
         align-items: center;
+        justify-content: center;
+        background-color: #acffa6;
+        padding-bottom: 2%;
+        background: linear-gradient(180deg, rgba(172, 255, 166, 1) 83%, rgba(255, 255, 255, 1) 100%);
     }
 
     #logoText img {
@@ -54,13 +61,6 @@
         font-size: x-large;
     }
 
-    #logoText {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-
     .menuButton {
         text-decoration: none;
         display: inline-block;
@@ -82,6 +82,7 @@
         box-shadow: 0 8px 15px rgb(0 0 0 / 10%);
         transition: .3s;
     }
+
     .pTextIMG {
         background: rgba(157, 255, 149, 0.589);
         border-radius: 45px;
@@ -91,6 +92,7 @@
         font-size: smaller;
         text-align: justify;
     }
+
     #slider_bl_css .slide {
         top: 0;
         opacity: 0;
@@ -101,6 +103,7 @@
         transform: scale(0);
         transition: all .7s ease-in-out;
     }
+
     #slider_bl_css .nav label {
         width: 100px;
         height: 100%;
@@ -117,6 +120,7 @@
         background-color: rgba(158, 255, 149, 0.24);
         text-shadow: 0 0 15px #777;
     }
+
     #slider_bl_css .slides {
         padding: 0;
         width: 100%;
@@ -125,6 +129,7 @@
         margin: 0 auto;
         position: relative;
     }
+
     #textService {
         background-color: rgb(104 255 92 / 55%);
         text-align: center;
@@ -132,11 +137,13 @@
         padding-bottom: 0.2%;
         font-size: x-large;
     }
+
     #textLegalList h1 {
         margin: 0;
         margin-right: 6%;
         font-size: medium;
     }
+
     .buttonServiceList {
         text-decoration: none;
         display: inline-block;
@@ -156,6 +163,7 @@
         box-shadow: 0 8px 15px rgb(0 0 0 / 10%);
         transition: .3s;
     }
+
     #imgLegal {
         object-fit: cover;
         width: 100%;
@@ -166,11 +174,13 @@
         background-size: cover;
         box-shadow: inset 1px 0px 12px 16px #fff;
     }
+
     #textFopList h1 {
         margin: 0;
         margin-right: 6%;
         font-size: medium;
     }
+
     #imgFop {
         object-fit: cover;
         width: 100%;
@@ -181,51 +191,86 @@
         background-size: cover;
         box-shadow: inset 1px 0px 12px 16px #fff;
     }
+
     #footerMenu {
         display: flex;
         padding-top: 3%;
         padding-bottom: 2%;
         background-color: #acffa6;
-        background: linear-gradient(0deg, rgba(172,255,166,1) 83%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(0deg, rgba(172, 255, 166, 1) 83%, rgba(255, 255, 255, 1) 100%);
         flex-direction: column;
         align-items: center;
     }
+
     #infoFirm {
         display: none;
         width: 100%;
         margin-left: 2%;
         margin-right: 2%;
     }
+
     #contactFirm {
         display: flex;
-        margin-left: 2%;
+        margin-left: 0;
         width: 100%;
         flex-direction: column;
         align-items: center;
     }
+
     #feedback {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .contactFooterCLASS {
         display: flex;
         align-items: center;
         margin-top: 0.5%;
         justify-content: center;
     }
+
     .contactFooterCLASS p {
         text-align: center;
         margin: 0;
         margin-left: 1%;
     }
+
     #cosialFooter {
         display: flex;
         justify-content: center;
         flex-direction: row;
         align-items: center;
     }
+
+    #inputText {
+        width: 60%;
+        height: 60%;
+        margin-top: 2%;
+    }
+
+    .textService {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .mailTextDetailFop,
+    .mailTextDetailLegal {
+        width: 93%;
+        margin-left: 2%;
+        margin-right: 2%;
+        text-align: justify;
+        border: thick double rgb(172 255 166);
+    }
+
+    #textDetailLegal,
+    #textDetailFop {
+        font-size: initial;
+    }
 }
-
-
