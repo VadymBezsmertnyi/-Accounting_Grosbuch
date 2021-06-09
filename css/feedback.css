@@ -1,0 +1,7 @@
+#phoneAndEmail{
+    display: flex;
+}
+
+#feedback input{
+    outline:none;
+}

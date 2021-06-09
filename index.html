@@ -15,7 +15,10 @@
     <link rel="stylesheet" href="css/footer.css"> <!-- Footer style -->
     <link rel="stylesheet" href="css/textDetailLegal.css"> <!-- Legal detail style -->
     <link rel="stylesheet" href="css/textDetailFop.css"> <!-- Individual entrepreneur style -->
+    <link rel="stylesheet" href="css/feedback.css"> <!-- Feedback style -->
     <link rel="stylesheet" href="css/mobileVersion.css"> <!-- Mobile version style -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -304,7 +307,9 @@
                     <!-- Adress in footer -->
                     <div class="contactFooterCLASS">
                         <img src="icons/placeholder.png" alt="">
-                        <p>02125, м. Київ, вулиця Старосільська 1-К, офіс 80</p>
+                        <a href="https://goo.gl/maps/BgSAYzNzd2B2z7FMA" title="Показати на Google картах">
+                            <p>02125, м. Київ, вулиця Старосільська 1-К, офіс 80</p>
+                        </a>
                     </div>
                     <!-- E-mail footer -->
                     <div class="contactFooterCLASS">
@@ -320,19 +325,38 @@
                 </div>
             </div>
             <!-- Feedback footer -->
-            <div id="feedback">
+            <form id="feedback" action="php/post.php" method="post">
                 <h1>Зворотній зв'язок</h1>
-                <input id="inputEmail" type="email" placeholder="E-mail">
-                <textarea id="inputText" name="text" placeholder="Напишіть запитання"></textarea>
-                <button class="buttonServiceList">Відправити</button>
-            </div>
+                <!-- Name and surname -->
+                <div id="nameAndSurname">
+                    <input name="name" type="text" pattern="[a-zA-Zа-яА-ЯёЁъЪіІїЇєЄ]{1,20}" maxlength="20" placeholder="Ім'я" required>
+                    <input name="surname" type="text" pattern="[a-zA-Zа-яА-ЯёЁъЪіІїЇєЄ]{1,20}" maxlength="20" placeholder="По-батькові" required>
+                </div>
+                <!-- Phone and E-mail -->
+                <div id="phoneAndEmail">
+                    <input id="phoneNumber" name="phone" type="tel" maxlength="19"
+                    value="+_(___)___-__-__" required
+                    pattern="[\+]*[1-8]{2}\s?[\(]*[0-9]{3}[\)]*\s?\d{3}[-]*\d{2}[-]*\d{2}"
+                    placeholder="+__(___)___-__-__">
+                    <input id="inputEmail" type="email" name="email" maxlength="40"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                    required placeholder="mail@example.com">
+                </div>
+                <!-- Other -->
+                <textarea id="inputText" name="message" required maxlength="900" placeholder="Напишіть запитання"></textarea>
+                <button id="send" type="submit" class="buttonServiceList">Відправити</button>
+            </form>
         </div>
     </div>
     <!-- Down part footer -->
     <div class="other" id="rights">ТОВ "Гросбух ГмбХ"<br> 2021 Всі права захищені.</div>
     </div>
+
     <script src="js/slider.js"></script>
     <script src="js/textDetailService.js"></script>
+    <script src="js/inputPhone.js"></script>
+    <script src="js/post.js"></script>
+
 </body>
 
 </html>
