@@ -73,14 +73,18 @@
     margin-top: 1%;
 }
 
-.contactFooterCLASS p{
+#phoneFooter p{
     margin: 0;
     margin-left: 1%;
 }
 
-.contactFooterCLASS a{
+#adressAndEmailFooter p{margin: 0;}
+#adressAndEmailFooter a{
     margin: 0;
-    margin-left: 1%;
+    margin-left: 0;
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
 
 #adressAndEmailFooter img{
